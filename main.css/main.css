@@ -1,0 +1,69 @@
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.wraper {
+  width: 800px;
+  outline: 2px solid red;
+}
+
+.item {
+  width: 800px;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 72px;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+}
+
+.brown {
+  background-color: brown;
+}
+
+.tomato {
+  background-color: tomato;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.violet {
+  background-color: violet;
+}
+
+.gray {
+  background-color: gray;
+}
+
+.swiper-pagination-bullet {
+  width: 30px;
+  height: 30px;
+}
+
+.swiper-pagination-bullet-active {
+  width: 40px;
+  height: 50px;
+  background-image: url(https://picsum.photos/id/237/200/300);
+  background-size: cover;
+}
